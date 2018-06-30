@@ -124,7 +124,7 @@ if (isset($_GET['edit'])) {
 
 </table>
 <!--server.php conexion con la base de datos-->
-<form action="/vista/administrador.php" method="POST" class="ui form">
+<form action="administrador.php" method="POST" class="ui form">
     <!--//12) actualizar registros en el formulario-->
     <input type="hidden" name="contrato" value="<?php echo $contrato; ?>">
 
