@@ -106,8 +106,8 @@ if (isset($_GET['edit'])) {
             <td><?php echo $row['contrato']; ?></td>
             <td><?php echo $row['nombre']; ?></td>
             <td><?php echo $row['apellido']; ?></td>
-            <td><?php echo $row['tipo']; ?></td>
-            <td><?php echo $row['numerodocumento']; ?></td>
+            <td><?php echo $row['tipocedula']; ?></td>
+            <td><?php echo $row['cc']; ?></td>
             <td><?php echo $row['email']; ?></td>
             <td><?php echo $row['hobby1']; ?></td>
             <td><?php echo $row['hobby2']; ?></td>
@@ -173,8 +173,8 @@ if (isset($_GET['edit'])) {
 
 
             <div class="ui right labeled input ">
-                <input type="text" placeholder="Enter ..." autofocus maxlength="15" name="tipo"
-                       value="<?php echo $tipo; ?>">
+                <input type="text" placeholder="Enter ..." autofocus maxlength="15" name="tipocedula"
+                       value="<?php echo $tipocedula; ?>">
                 <div class="ui teal   label">
                     Tipo
                 </div>
@@ -188,8 +188,8 @@ if (isset($_GET['edit'])) {
     <div class="field">
         <div class="two fields">
             <div class="ui right labeled input ">
-                <input type="number" placeholder="Enter..." name="numerodocumento"
-                       value="<?php echo $numerodocumento; ?>">
+                <input type="number" placeholder="Enter..." name="cc"
+                       value="<?php echo $cc; ?>">
                 <div class="ui teal   label">
                     Numero Documento
                 </div>
@@ -213,7 +213,7 @@ if (isset($_GET['edit'])) {
         <div class="two fields">
             <div class="ui right labeled input ">
                 <input type="text" placeholder="Enter ..." autofocus maxlength="14" name="hobby1"
-                       value="<?php echo $hobby1; ?>">
+                       value="<?php echo $hobby1;?>">
                 <div class="ui teal   label">
                     Hobby1
                 </div>

@@ -7,8 +7,8 @@ session_start();
 $contrato = "";//1
 $nombre = "";//2
 $apellido = "";//3
-$tipo = "";//4
-$numerodocumento = "";//5
+$tipocedula = "";//4
+$cc = "";//5
 $email = "";//6
 $hobby1 = "";//7
 $hobby2 = "";//8
@@ -34,8 +34,8 @@ if (isset($_POST['save'])) {
     $contrato = $_POST['contrato'];
     $nombre = $_POST['nombre'];
     $apellido = $_POST['apellido'];
-    $tipo = $_POST['tipo'];
-    $numerodocumento = $_POST['numerodocumento'];
+    $tipocedula = $_POST['tipocedula'];
+    $cc = $_POST['cc'];
     $email = $_POST['email'];
     $hobby1 = $_POST['hobby1'];
     $hobby2 = $_POST['hobby2'];
@@ -45,7 +45,7 @@ if (isset($_POST['save'])) {
     //3) hacemos la query de insertar datos
 
     $query = "INSERT INTO VENTAS(contrato,nombre,apellido,tipocedula,cc,email,hobby1,hobby2,hobby3) VALUES('$contrato', '$nombre',
-        '$apellido','$tipo','$numerodocumento','$email','$hobby1','$hobby2','$hobby3')";
+        '$apellido','$tipocedula','$cc','$email','$hobby1','$hobby2','$hobby3')";
     pg_query($con, $query);
     //Mostrar notificaciones de mensajes
     //3
@@ -62,16 +62,15 @@ if (isset($_POST['update'])) {
     $contrato = pg_escape_string($_POST['contrato']);
     $nombre = pg_escape_string($_POST['nombre']);
     $apellido = pg_escape_string($_POST['apellido']);
-    $tipo = pg_escape_string($_POST['tipo']);
-    $numerodocumento = pg_escape_string($_POST['numerodocumento']);
-    $fecha_ingreso = pg_escape_string($_POST['fecha_ingreso']);
+    $tipocedula = pg_escape_string($_POST['tipocedula']);
+    $cc = pg_escape_string($_POST['cc']);
     $email = pg_escape_string($_POST['email']);
     $hobby1 = pg_escape_string($_POST['hobby1']);
     $hobby2 = pg_escape_string($_POST['hobby2']);
     $hobby3 = pg_escape_string($_POST['hobby3']);
 
 
-    pg_query($db, "UPDATE ventas SET contrato='$contrato', nombre='$nombre', apellido='$apellido', tipo='$tipo' , numerodocumento='$numerodocumento', email='$email', hobby1='$hobby1', hobby2='$hobby2',hobby3='$hobby3 WHERE contrato=$contrato");
+    pg_query($db, "UPDATE ventas SET contrato='$contrato', nombre='$nombre', apellido='$apellido', tipocedula='$tipocedula' , cc='$cc', email='$email', hobby1='$hobby1', hobby2='$hobby2',hobby3='$hobby3 WHERE contrato=$contrato");
     $_SESSION['msg'] = "Imformacion Actualizada";
 
     header('location: ./prueba.php'); //redireccionamos a la pagina principal
