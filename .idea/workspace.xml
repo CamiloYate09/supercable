@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="548493c0-67e3-4627-9689-dbd9e58651a3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/vista/administrador.php" />
       <change beforePath="" afterPath="$PROJECT_DIR$/vista/prueba.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change beforePath="$PROJECT_DIR$/admin.php" afterPath="$PROJECT_DIR$/admin.php" />
       <change beforePath="$PROJECT_DIR$/user.php" afterPath="$PROJECT_DIR$/user.php" />
+      <change beforePath="$PROJECT_DIR$/vista/administrador.php" afterPath="$PROJECT_DIR$/vista/administrador.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="24">
-              <caret line="1" column="197" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="197" />
+              <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="2" selection-end-column="0" />
               <folding>
                 <marker date="1530295874446" expanded="true" signature="435:480" ph="SELECT * FRO... login" />
                 <marker date="1530295874446" expanded="true" signature="435:507" ph="SELECT * FRO... login" />
@@ -55,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="504">
               <caret line="36" column="53" lean-forward="false" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
               <folding />
             </state>
@@ -75,14 +75,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="administrador.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="administrador.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vista/administrador.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-199">
-              <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="103">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
-                <marker date="1530333738348" expanded="true" signature="635:721" ph="INSERT INTO ventas... " />
-                <marker date="1530333738348" expanded="true" signature="635:805" ph="INSERT INTO ventas... " />
+                <marker date="1530335124236" expanded="true" signature="639:725" ph="INSERT INTO ventas... " />
+                <marker date="1530335124236" expanded="true" signature="639:809" ph="INSERT INTO ventas... " />
               </folding>
             </state>
           </provider>
@@ -145,15 +145,15 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/853d0ada-81c6-444d-9037-26fd7804afee/console.sql" />
         <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/principal.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/datos.txt" />
         <option value="$PROJECT_DIR$/controlador/insertar.php" />
         <option value="$PROJECT_DIR$/controlador/salir.php" />
         <option value="$PROJECT_DIR$/user.php" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/vista/administrador.php" />
         <option value="$PROJECT_DIR$/vista/prueba.php" />
         <option value="$PROJECT_DIR$/admin.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/vista/administrador.php" />
       </list>
     </option>
   </component>
@@ -260,12 +260,12 @@
       <workItem from="1530252762675" duration="1154000" />
       <workItem from="1530255889682" duration="7681000" />
       <workItem from="1530295664226" duration="8200000" />
-      <workItem from="1530308189304" duration="9513000" />
+      <workItem from="1530308189304" duration="9820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46491000" />
+    <option name="totallyTimeSpent" value="46798000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -584,30 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vista/administrador.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199">
-          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <marker date="1530333738348" expanded="true" signature="635:721" ph="INSERT INTO ventas... " />
-            <marker date="1530333738348" expanded="true" signature="635:805" ph="INSERT INTO ventas... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="197" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="197" />
-          <folding>
-            <marker date="1530295874446" expanded="true" signature="435:480" ph="SELECT * FRO... login" />
-            <marker date="1530295874446" expanded="true" signature="435:507" ph="SELECT * FRO... login" />
-            <marker date="1530295874446" expanded="true" signature="435:524" ph="SELECT * FRO... login" />
-            <marker date="1530295874446" expanded="true" signature="1031:1050" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vista/prueba.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -618,9 +594,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="504">
           <caret line="36" column="53" lean-forward="false" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <marker date="1530295874446" expanded="true" signature="435:480" ph="SELECT * FRO... login" />
+            <marker date="1530295874446" expanded="true" signature="435:507" ph="SELECT * FRO... login" />
+            <marker date="1530295874446" expanded="true" signature="435:524" ph="SELECT * FRO... login" />
+            <marker date="1530295874446" expanded="true" signature="1031:1050" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vista/administrador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1530335124236" expanded="true" signature="639:725" ph="INSERT INTO ventas... " />
+            <marker date="1530335124236" expanded="true" signature="639:809" ph="INSERT INTO ventas... " />
+          </folding>
         </state>
       </provider>
     </entry>
