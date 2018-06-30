@@ -15,8 +15,6 @@ $hobby2 = "";//8
 $hobby3 = "";//9
 
 
-
-
 //actualizar registros
 //3
 $edit_state = false;
@@ -28,7 +26,7 @@ $db = pg_connect("host=ec2-54-227-237-27.compute-1.amazonaws.com port=5432  dbna
 
 // si se presiona el boton save de el formulario
 
-if(isset($_POST['save'])){
+if (isset($_POST['save'])) {
     //2)empiezo a pasar los nombres de los atributos de mi formulario
 
     //$name = $_POST['name'];
@@ -53,20 +51,20 @@ if(isset($_POST['save'])){
     //3
     $_SESSION['msg'] = "Imformacion Guardada";
 
-    header('location: prueba.php'); //redireccionamos a la pagina principal
+    header('location: ./prueba.php'); //redireccionamos a la pagina principal
 
 }
 
 //actualizar registros
 //4)-->
 
-if (isset($_POST['update'])){
-    $contrato  = pg_escape_string($_POST['contrato']);
+if (isset($_POST['update'])) {
+    $contrato = pg_escape_string($_POST['contrato']);
     $nombre = pg_escape_string($_POST['nombre']);
     $apellido = pg_escape_string($_POST['apellido']);
     $tipo = pg_escape_string($_POST['tipo']);
     $numerodocumento = pg_escape_string($_POST['numerodocumento']);
-    $fecha_ingreso    = pg_escape_string($_POST['fecha_ingreso']);
+    $fecha_ingreso = pg_escape_string($_POST['fecha_ingreso']);
     $email = pg_escape_string($_POST['email']);
     $hobby1 = pg_escape_string($_POST['hobby1']);
     $hobby2 = pg_escape_string($_POST['hobby2']);
@@ -76,17 +74,17 @@ if (isset($_POST['update'])){
     pg_query($db, "UPDATE ventas SET contrato='$contrato', nombre='$nombre', apellido='$apellido', tipo='$tipo' , numerodocumento='$numerodocumento', email='$email', hobby1='$hobby1', hobby2='$hobby2',hobby3='$hobby3 WHERE contrato=$contrato");
     $_SESSION['msg'] = "Imformacion Actualizada";
 
-    header('location: prueba.php'); //redireccionamos a la pagina principal
+    header('location: ./prueba.php'); //redireccionamos a la pagina principal
 }
 
 //<!-- BORRAR REGISTROS
 //5)-->
-if(isset($_GET['del'])){
+if (isset($_GET['del'])) {
     $empleado_id = $_GET['del'];
     pg_query($db, "DELETE FROM ventas WHERE contrato=$contrato");
     $_SESSION['msg'] = "Imformacion Eliminada";
 
-    header('location: prueba.php'); //redireccionamos a la pagina principal
+    header('location: ./prueba.php'); //redireccionamos a la pagina principal
 
 }
 

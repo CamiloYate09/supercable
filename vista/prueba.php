@@ -2,7 +2,7 @@
 include_once('administrador.php');
 
 //fetch the record to be updated
-if(isset($_GET['edit'])){
+if (isset($_GET['edit'])) {
     $contrato = $_GET['edit'];
     $edit_state = true;
     //frontend 7) llamara datos
@@ -15,7 +15,7 @@ if(isset($_GET['edit'])){
     $numerodocumento = $record['numerodocumento'];
     $email = $record['email'];
     $hobby1 = $record['hobby1'];
-    $hobby2= $record['hobby2'];
+    $hobby2 = $record['hobby2'];
     $hobby3 = $record['hobby3'];
 
 
@@ -35,33 +35,28 @@ if(isset($_GET['edit'])){
     <!--    //SEMANTIC UI CON  JQUERY-->
 
     <script
-        src="https://code.jquery.com/jquery-3.1.1.min.js"
-        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-        crossorigin="anonymous"></script>
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
     <script src="/js/semantic.js"></script>
 
 </head>
-<body >
+<body>
 <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
 <div class="ui teal  menu">
     <div class="header item">
-        CRUD PHP HEROKU POSTGRESQL
+        Administrador SuperCable
     </div>
     <a class="item active " href="index.php">
         EMPLOYEES
     </a>
-    <a class="item" href="DEPARTMENTS.php">
-        DEPARTMENTS
-    </a>
-    <a class="item" href="JOBS.php">
-        JOBS
-    </a>
+
 </div>
 <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
 
 <div class="ui small circular rotate left reveal image imgcenter">
-    <img src="imagenes/heroku.png" class="visible content ">
-    <img src="imagenes/1200px-Postgresql_elephant.svg.png" class="hidden content">
+    <img src="../img/supercable.png " class="visible content ">
+    <img src="../img/admin.png " class="hidden content">
 </div>
 <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
 
@@ -75,8 +70,7 @@ if(isset($_GET['edit'])){
         ?>
     </div>
 
-<?php endif;  ?>
-
+<?php endif; ?>
 
 
 <table class="ui inverted grey celled">
@@ -94,7 +88,7 @@ if(isset($_GET['edit'])){
         <th>hobby3</th>
 
 
-        <th colspan="2" >Action</th>
+        <th colspan="2">Action</th>
     </tr>
 
     </thead>
@@ -102,7 +96,7 @@ if(isset($_GET['edit'])){
 
     <tbody>
     <!-- 9)llamando registros de la base de datos-->
-    <?php while ($row = pg_fetch_array($results))   { ?>
+    <?php while ($row = pg_fetch_array($results)) { ?>
         <tr>
             <td><?php echo $row['contrato']; ?></td>
             <td><?php echo $row['nombre']; ?></td>
@@ -115,51 +109,41 @@ if(isset($_GET['edit'])){
             <td><?php echo $row['hobby3']; ?></td>
             <td>
                 <!--10)//actualizar registros-->
-                <a class="ui circular blue  icon button" href="/vista/prueba.php?edit=<?php echo $row['contrato'];?>"> Edit</a>
+                <a class="ui circular blue  icon button" href="prueba.php?edit=<?php echo $row['contrato']; ?>">
+                    Edit</a>
             </td>
             <td>
                 <!-- 11)BORRAR REGISTROS-->
-                <a class="ui circular teal twitter icon button" href="/vista/administrador.php?del=<?php echo $row['contrato'];?>" >Delete</a>
+                <a class="ui circular teal twitter icon button"
+                   href="administrador.php?del=<?php echo $row['contrato']; ?>">Delete</a>
             </td>
         </tr>
 
-    <?php }?>
+    <?php } ?>
     </tbody>
 
 </table>
 <!--server.php conexion con la base de datos-->
-<form action="/vista/administrador.php"  method="POST" class="ui form" >
+<form action="/vista/administrador.php" method="POST" class="ui form">
     <!--//12) actualizar registros en el formulario-->
-    <input type="hidden" name="contrato"  value="<?php echo $contrato;?>">
+    <input type="hidden" name="contrato" value="<?php echo $contrato; ?>">
 
-    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <!--<div class="ui right labeled input field">
-        <input type="number" placeholder="Enter ..." autofocus maxlength="3" name="empleado_id" value="<?php /*echo $empleado_id;*/?>">
-        <div class="ui teal  label">
-            empleado_id
-        </div>
-    </div>
--->
-
-
-
-
-    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
 
     <div class="field">
         <div class="two fields">
 
             <div class="ui right labeled input corner">
-                <input type="number" placeholder="Enter ..." autofocus maxlength="20" name="contrato" value="<?php echo $contrato;?>">
+                <input type="number" placeholder="Enter ..." autofocus maxlength="20" name="contrato"
+                       value="<?php echo $contrato; ?>">
                 <div class="ui teal   label">
                     contrato
                 </div>
             </div>
 
 
-
             <div class="ui right labeled input ">
-                <input type="text" placeholder="Enter ..." autofocus maxlength="20" name="nombre" value="<?php echo $nombre;?>">
+                <input type="text" placeholder="Enter ..." autofocus maxlength="20" name="nombre"
+                       value="<?php echo $nombre; ?>">
                 <div class="ui teal   label">
                     Nombre
                 </div>
@@ -175,16 +159,17 @@ if(isset($_GET['edit'])){
     <div class="field">
         <div class="two fields">
             <div class="ui right labeled input ">
-                <input type="text" placeholder="Enter ..." name="apellido" autofocus maxlength="50" value="<?php echo $apellido;?>">
+                <input type="text" placeholder="Enter ..." name="apellido" autofocus maxlength="50"
+                       value="<?php echo $apellido; ?>">
                 <div class="ui teal   label">
                     Apellido
                 </div>
             </div>
 
 
-
             <div class="ui right labeled input ">
-                <input type="text" placeholder="Enter ..." autofocus maxlength="15" name="tipo" value="<?php echo $tipo;?>">
+                <input type="text" placeholder="Enter ..." autofocus maxlength="15" name="tipo"
+                       value="<?php echo $tipo; ?>">
                 <div class="ui teal   label">
                     Tipo
                 </div>
@@ -198,16 +183,17 @@ if(isset($_GET['edit'])){
     <div class="field">
         <div class="two fields">
             <div class="ui right labeled input ">
-                <input type="number" placeholder="Enter..." name="numerodocumento" value="<?php echo $numerodocumento;?>">
+                <input type="number" placeholder="Enter..." name="numerodocumento"
+                       value="<?php echo $numerodocumento; ?>">
                 <div class="ui teal   label">
                     Numero Documento
                 </div>
             </div>
 
 
-
             <div class="ui right labeled input ">
-                <input type="email" placeholder="Enter ..." autofocus maxlength="20" name="email" value="<?php echo $email;?>">
+                <input type="email" placeholder="Enter ..." autofocus maxlength="20" name="email"
+                       value="<?php echo $email; ?>">
                 <div class="ui teal   label">
                     Email
                 </div>
@@ -221,60 +207,65 @@ if(isset($_GET['edit'])){
     <div class="field">
         <div class="two fields">
             <div class="ui right labeled input ">
-                <input type="text" placeholder="Enter ..." autofocus maxlength="14" name="hobby1" value="<?php echo $hobby1;?>">
+                <input type="text" placeholder="Enter ..." autofocus maxlength="14" name="hobby1"
+                       value="<?php echo $hobby1; ?>">
                 <div class="ui teal   label">
                     Hobby1
                 </div>
             </div>
 
 
-
             <div class="two fields">
                 <div class="ui right labeled input ">
-                    <input type="text" placeholder="Enter ..." autofocus maxlength="14" name="hobby2" value="<?php echo $hobby2;?>">
+                    <input type="text" placeholder="Enter ..." autofocus maxlength="14" name="hobby2"
+                           value="<?php echo $hobby2; ?>">
                     <div class="ui teal   label">
                         Hobby2
                     </div>
                 </div>
 
             </div>
-    </div>
+        </div>
 
-    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="field">
-        <div class="two fields">
-            <div class="ui right labeled input ">
-                <input type="text" placeholder="Enter ..." autofocus maxlength="14" name="hobby3" value="<?php echo $hobby3;?>">
-                <div class="ui teal   label">
-                    Hobby3
+        <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+        <div class="field">
+            <div class="two fields">
+                <div class="ui right labeled input ">
+                    <input type="text" placeholder="Enter ..." autofocus maxlength="14" name="hobby3"
+                           value="<?php echo $hobby3; ?>">
+                    <div class="ui teal   label">
+                        Hobby3
+                    </div>
                 </div>
-            </div>
 
+
+            </div>
+        </div>
+
+
+        <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+        <div class="input-group">
+            <!-- //actualizar registros
+             //3-->
+            <?php if ($edit_state == false): ?>
+
+                <button type="submit" name="save" class="btn" onclick="alert('Tu imformacion se esta actualizando')">
+                    Guardar
+                </button>
+                <button type="button" onclick="alert('Tu imformacion se esta actualizando')"
+                        class="ui secondary  loading button positive"></button>
+            <?php else: ?>
+
+                <button type="submit" name="update" class="btn" onclick="alert('Tu imformacion se esta actualizando')">
+                    Actualizar
+                </button>
+                <button type="button" onclick="alert('Tu imformacion se esta actualizando')"
+                        class="ui secondary  loading button positive"></button>
+            <?php endif; ?>
 
         </div>
-    </div>
 
-        
-
-
-    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-    <div class="input-group">
-        <!-- //actualizar registros
-         //3-->
-        <?php   if ($edit_state == false): ?>
-
-            <button type="submit" name="save" class="btn" onclick="alert('Tu imformacion se esta actualizando')" >Guardar</button>
-            <button type="button" onclick="alert('Tu imformacion se esta actualizando')"  class="ui secondary  loading button positive"></button>
-        <?php else: ?>
-
-            <button type="submit" name="update" class="btn" onclick="alert('Tu imformacion se esta actualizando')" >Actualizar</button>
-            <button type="button" onclick="alert('Tu imformacion se esta actualizando')"  class="ui secondary  loading button positive"></button>
-        <?php endif; ?>
-
-    </div>
-
-    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-
+        <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
 
 
 </form>
