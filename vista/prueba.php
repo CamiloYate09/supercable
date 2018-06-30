@@ -51,16 +51,16 @@ if (isset($_GET['edit'])) {
     <a class="item active " href="/user.php">
         Portal Agentes
     </a>
-    <ul>
-        <li><a href="controlador/salir.php">Salir</a></li>
-    </ul>
+
+    <a class="item active " href="/controlador/salir.php">
+        Salir
+    </a>
 
 
 </div>
 <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
 
 <div class="ui small circular rotate left reveal image imgcenter">
-    <img src="../img/supercable.png " class="visible content ">
     <img src="../img/admin.png " class="hidden content">
 </div>
 <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->

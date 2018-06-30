@@ -90,7 +90,7 @@ if (isset($_GET['del'])) {
 
 //recuperar registros##################
 //6)
-$results = pg_query($db, "SELECT * FROM ventas");
+$results = pg_query($db, "SELECT * FROM ventas WHERE contrato ORDER BY");
 
 
 ?>

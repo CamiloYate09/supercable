@@ -44,13 +44,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="prueba.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="prueba.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vista/prueba.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+            <state relative-caret-position="-1032">
+              <caret line="62" column="66" lean-forward="false" selection-start-line="62" selection-start-column="66" selection-end-line="62" selection-end-column="66" />
               <folding>
-                <marker date="1530340827767" expanded="true" signature="216:252" ph="SELECT * FRO... employees" />
+                <marker date="1530341085690" expanded="true" signature="216:252" ph="SELECT * FRO... employees" />
               </folding>
             </state>
           </provider>
@@ -76,17 +76,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="administrador.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="administrador.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vista/administrador.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+            <state relative-caret-position="288">
+              <caret line="92" column="70" lean-forward="false" selection-start-line="92" selection-start-column="70" selection-end-line="92" selection-end-column="70" />
               <folding>
-                <marker date="1530340025736" expanded="true" signature="1081:1284" ph="INSERT INTO VENTAS... " />
-                <marker date="1530340025736" expanded="true" signature="2112:2325" ph="UPDATE ventas... " />
-                <marker date="1530340025736" expanded="true" signature="2581:2615" ph="DELETE FROM employees... " />
-                <marker date="1530340025736" expanded="true" signature="2830:2844" ph="SELECT * FRO... employees" />
-                <marker date="1530340025736" expanded="true" signature="2830:2850" ph="SELECT * FRO... ventas" />
+                <marker date="1530342339413" expanded="true" signature="1081:1284" ph="INSERT INTO VENTAS... " />
+                <marker date="1530342339413" expanded="true" signature="2112:2325" ph="UPDATE ventas... " />
+                <marker date="1530342339413" expanded="true" signature="2581:2615" ph="DELETE FROM employees... " />
+                <marker date="1530342339413" expanded="true" signature="2830:2844" ph="SELECT * FRO... employees" />
+                <marker date="1530342339413" expanded="true" signature="2830:2874" ph="SELECT * FRO... ventas" />
               </folding>
             </state>
           </provider>
@@ -153,8 +153,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/admin.php" />
         <option value="$PROJECT_DIR$/controlador/insertar.php" />
-        <option value="$PROJECT_DIR$/vista/administrador.php" />
         <option value="$PROJECT_DIR$/vista/prueba.php" />
+        <option value="$PROJECT_DIR$/vista/administrador.php" />
       </list>
     </option>
   </component>
@@ -273,12 +273,12 @@
       <workItem from="1530252762675" duration="1154000" />
       <workItem from="1530255889682" duration="7681000" />
       <workItem from="1530295664226" duration="8200000" />
-      <workItem from="1530308189304" duration="15083000" />
+      <workItem from="1530308189304" duration="16046000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52061000" />
+    <option name="totallyTimeSpent" value="53024000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -608,20 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vista/administrador.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-          <folding>
-            <marker date="1530340025736" expanded="true" signature="1081:1284" ph="INSERT INTO VENTAS... " />
-            <marker date="1530340025736" expanded="true" signature="2112:2325" ph="UPDATE ventas... " />
-            <marker date="1530340025736" expanded="true" signature="2581:2615" ph="DELETE FROM employees... " />
-            <marker date="1530340025736" expanded="true" signature="2830:2844" ph="SELECT * FRO... employees" />
-            <marker date="1530340025736" expanded="true" signature="2830:2850" ph="SELECT * FRO... ventas" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/estilosadmin.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -640,10 +626,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vista/prueba.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+        <state relative-caret-position="-1032">
+          <caret line="62" column="66" lean-forward="false" selection-start-line="62" selection-start-column="66" selection-end-line="62" selection-end-column="66" />
           <folding>
-            <marker date="1530340827767" expanded="true" signature="216:252" ph="SELECT * FRO... employees" />
+            <marker date="1530341085690" expanded="true" signature="216:252" ph="SELECT * FRO... employees" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vista/administrador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="92" column="70" lean-forward="false" selection-start-line="92" selection-start-column="70" selection-end-line="92" selection-end-column="70" />
+          <folding>
+            <marker date="1530342339413" expanded="true" signature="1081:1284" ph="INSERT INTO VENTAS... " />
+            <marker date="1530342339413" expanded="true" signature="2112:2325" ph="UPDATE ventas... " />
+            <marker date="1530342339413" expanded="true" signature="2581:2615" ph="DELETE FROM employees... " />
+            <marker date="1530342339413" expanded="true" signature="2830:2844" ph="SELECT * FRO... employees" />
+            <marker date="1530342339413" expanded="true" signature="2830:2874" ph="SELECT * FRO... ventas" />
           </folding>
         </state>
       </provider>
