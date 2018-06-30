@@ -10,14 +10,15 @@ class Users{
     public function __construct()
     {
         $this->db = pg_connect("host=ec2-54-227-237-27.compute-1.amazonaws.com port=5432  dbname=ddob655ldc9d3u  user=lhpkliyrbkfwac  password=c4261efd43b96cb28c5cd52efe6d04298f0cd9b7ab88fe269313cfd798027670");
-
+        echo "Error al establecer la conexion" . pg_errormessage();
         $this->faker = Faker\Factory::create();
+        echo "Error al establecer la conexion" . pg_errormessage();
     }
 
     public function generaUser(){
         $ps = $this->db->prepare("INSERT INTO ventas(contrato,nombre,apellido,tipocedula,
 cc,email,hobby1,hobby2,hobby3) VALUES (:contrato,:nombre,:apellido,:tipocedula,:cc,:email,:hobby1,:hobby2:,hobby3)");
-
+        echo "Error al establecer la conexion" . pg_errormessage();
 
         $ps->execute([
             ':contrato' => $this->faker->ean13,
@@ -31,7 +32,7 @@ cc,email,hobby1,hobby2,hobby3) VALUES (:contrato,:nombre,:apellido,:tipocedula,:
             ':hobby3' => $this->faker->township,
         ]);
 
-
+        echo "Error al establecer la conexion" . pg_errormessage();
     }
 }
 
