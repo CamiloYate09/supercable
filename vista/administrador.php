@@ -19,7 +19,8 @@ class Users{
         $ps = $this->db->prepare("INSERT INTO ventas(contrato,nombre,apellido,tipocedula,
 cc,email,hobby1,hobby2,hobby3) VALUES (:contrato,:nombre,:apellido,:tipocedula,:cc,:email,:hobby1,:hobby2:,hobby3)");
         echo "Error al establecer la conexion" . pg_errormessage();
-
+        $resultado = pg_query($ps);
+        
         $ps->execute([
             ':contrato' => $this->faker->ean13,
             ':nombre' => $this->faker->name,
@@ -31,6 +32,8 @@ cc,email,hobby1,hobby2,hobby3) VALUES (:contrato,:nombre,:apellido,:tipocedula,:
             ':hobby2' => $this->faker->township,
             ':hobby3' => $this->faker->township,
         ]);
+
+
 
         echo "Error al establecer la conexion" . pg_errormessage();
     }
