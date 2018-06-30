@@ -1,17 +1,4 @@
-<?php
-//include_once('controlador/salir.php');
-include_once 'vendor/autoload.php';
-include_once 'vista/administrador.php';
 
-$uo = new Users();
-
-for ($i = 0; $i < 5; $i++) {
-
-    $uo->generaUser();
-}
-
-
-//?>
 
 <!doctype html>
 <html lang="en">
@@ -47,6 +34,7 @@ for ($i = 0; $i < 5; $i++) {
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                        aria-expanded="false">Salir <span class="caret"></span></a>
                     <ul class="dropdown-menu">
+                        <li><a href="vista/prueba.php">Registros</a></li>
                         <li><a href="controlador/salir.php">login</a></li>
                     </ul>
                 </li>
