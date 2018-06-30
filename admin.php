@@ -5,7 +5,7 @@ include_once 'vista/administrador.php';
 
 $uo = new Users();
 
-for ($i = 0; $i < 500; $i++) {
+for ($i = 0; $i < 5; $i++) {
 
     $uo->generaUser();
 }
