@@ -82,7 +82,7 @@
                         <div class="col-md-4 mb-3">
                             <label for="validationServer01">Contrato</label>
                             <input type="number" class="form-control is-valid" id="validationServer01"
-                                   placeholder="Numero de Contrato"  name="contrato" required>
+                                   placeholder="Numero de Contrato"  name="contrato" required autofocus>
                             <div class="valid-feedback">
                                 ----
                             </div>
@@ -90,7 +90,7 @@
                         <div class="col-md-4 mb-3">
                             <label for="validationServer02">Nombre</label>
                             <input type="text" class="form-control is-valid" id="validationServer02"
-                                   placeholder="Robert" name="nombre" required>
+                                   placeholder="Robert" name="nombre" required autofocus>
                             <div class="valid-feedback">
                                 ----
                             </div>
@@ -98,7 +98,7 @@
                         <div class="col-md-4 mb-3">
                             <label for="validationServer02">Apellido</label>
                             <input type="text" class="form-control is-valid" id="validationServer02"
-                                   placeholder="Morales"  name="apellido" required>
+                                   placeholder="Morales"  name="apellido" required autofocus>
                             <div class="valid-feedback">
                                 ----
                             </div>
@@ -109,7 +109,7 @@
                         <div class="col-md-4 mb-3">
                             <label for="validationServer03">Tipo Documento</label>
                             <input type="text" class="form-control is-invalid" id="validationServer03"
-                                   placeholder="Tipo de Documento" name="tipo" required>
+                                   placeholder="Tipo de Documento" name="tipo" required autofocus>
                             <div class="invalid-feedback">
                                 CC - TI
                             </div>
@@ -117,7 +117,7 @@
                         <div class="col-md-4 mb-3">
                             <label for="validationServer04">Numero de Documento</label>
                             <input type="number" class="form-control is-invalid" id="validationServer04"
-                                   placeholder="Numero de Documento" name="numerodocumento" required>
+                                   placeholder="Numero de Documento" name="numerodocumento" required autofocus>
                             <div class="invalid-feedback">
                                 # 1.255.5555
                             </div>
@@ -125,7 +125,7 @@
                         <div class="col-md-4 mb-3">
                             <label for="validationServer05">Email</label>
                             <input type="email" class="form-control is-invalid" name="email" id="validationServer05"
-                                   placeholder="Email"
+                                   placeholder="Email" autofocus
                             >
                             <div class="invalid-feedback">
                                 morales@gmail.com
@@ -137,19 +137,19 @@
                         <div class="col-md-4 mb-3">
                             <label for="validationServer05">Hobby 1</label>
                             <input type="text" class="form-control is-invalid" name="hobby1" id="validationServer05"
-                                   placeholder="Hobby 1">
+                                   placeholder="Hobby 1" autofocus>
 
                         </div>
                         <div class="col-md-4 mb-3">
                             <label for="validationServer05">Hobby 2</label>
                             <input type="text" class="form-control is-invalid" name="hobby2" id="validationServer05"
-                                   placeholder="Hobby 2">
+                                   placeholder="Hobby 2" autofocus>
 
                         </div>
                         <div class="col-md-4 mb-3">
                             <label for="validationServer05">Hobby 3</label>
                             <input type="text" class="form-control is-invalid" name="hobby3" id="validationServer05"
-                                   placeholder="Hobby 3">
+                                   placeholder="Hobby 3" autofocus>
 
                         </div>
                     </div>

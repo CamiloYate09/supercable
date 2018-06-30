@@ -1,5 +1,11 @@
 <?php
 //include_once('controlador/salir.php');
+include_once 'vendor/autoload.php';
+include_once 'vista/administrador.php';
+
+$uo = new Users();
+$uo->generaUser();
+
 //?>
 
 <!doctype html>
