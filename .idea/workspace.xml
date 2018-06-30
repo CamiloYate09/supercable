@@ -80,13 +80,13 @@
         <entry file="file://$PROJECT_DIR$/vista/administrador.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="92" column="70" lean-forward="false" selection-start-line="92" selection-start-column="70" selection-end-line="92" selection-end-column="70" />
+              <caret line="92" column="65" lean-forward="false" selection-start-line="92" selection-start-column="65" selection-end-line="92" selection-end-column="65" />
               <folding>
-                <marker date="1530342339413" expanded="true" signature="1081:1284" ph="INSERT INTO VENTAS... " />
-                <marker date="1530342339413" expanded="true" signature="2112:2325" ph="UPDATE ventas... " />
-                <marker date="1530342339413" expanded="true" signature="2581:2615" ph="DELETE FROM employees... " />
-                <marker date="1530342339413" expanded="true" signature="2830:2844" ph="SELECT * FRO... employees" />
-                <marker date="1530342339413" expanded="true" signature="2830:2874" ph="SELECT * FRO... ventas" />
+                <marker date="1530342541784" expanded="true" signature="1081:1284" ph="INSERT INTO VENTAS... " />
+                <marker date="1530342541784" expanded="true" signature="2112:2325" ph="UPDATE ventas... " />
+                <marker date="1530342541784" expanded="true" signature="2581:2615" ph="DELETE FROM employees... " />
+                <marker date="1530342541784" expanded="true" signature="2830:2844" ph="SELECT * FRO... employees" />
+                <marker date="1530342541784" expanded="true" signature="2830:2868" ph="SELECT * FRO... ventas" />
               </folding>
             </state>
           </provider>
@@ -273,12 +273,12 @@
       <workItem from="1530252762675" duration="1154000" />
       <workItem from="1530255889682" duration="7681000" />
       <workItem from="1530295664226" duration="8200000" />
-      <workItem from="1530308189304" duration="16046000" />
+      <workItem from="1530308189304" duration="16248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53024000" />
+    <option name="totallyTimeSpent" value="53226000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -637,13 +637,13 @@
     <entry file="file://$PROJECT_DIR$/vista/administrador.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="92" column="70" lean-forward="false" selection-start-line="92" selection-start-column="70" selection-end-line="92" selection-end-column="70" />
+          <caret line="92" column="65" lean-forward="false" selection-start-line="92" selection-start-column="65" selection-end-line="92" selection-end-column="65" />
           <folding>
-            <marker date="1530342339413" expanded="true" signature="1081:1284" ph="INSERT INTO VENTAS... " />
-            <marker date="1530342339413" expanded="true" signature="2112:2325" ph="UPDATE ventas... " />
-            <marker date="1530342339413" expanded="true" signature="2581:2615" ph="DELETE FROM employees... " />
-            <marker date="1530342339413" expanded="true" signature="2830:2844" ph="SELECT * FRO... employees" />
-            <marker date="1530342339413" expanded="true" signature="2830:2874" ph="SELECT * FRO... ventas" />
+            <marker date="1530342541784" expanded="true" signature="1081:1284" ph="INSERT INTO VENTAS... " />
+            <marker date="1530342541784" expanded="true" signature="2112:2325" ph="UPDATE ventas... " />
+            <marker date="1530342541784" expanded="true" signature="2581:2615" ph="DELETE FROM employees... " />
+            <marker date="1530342541784" expanded="true" signature="2830:2844" ph="SELECT * FRO... employees" />
+            <marker date="1530342541784" expanded="true" signature="2830:2868" ph="SELECT * FRO... ventas" />
           </folding>
         </state>
       </provider>
