@@ -52,6 +52,7 @@
         <div class="col-md-9">
             <div class="jumbotron">
                 <h1>Bienvenido a SuperCable</h1>
+                <spam>Para ver los ultimos registros ve a salir-> Registros</spam>
             </div>
 
         </div>

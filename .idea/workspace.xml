@@ -76,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="administrador.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="administrador.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vista/administrador.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
@@ -88,6 +88,16 @@
                 <marker date="1530342541784" expanded="true" signature="2830:2844" ph="SELECT * FRO... employees" />
                 <marker date="1530342541784" expanded="true" signature="2830:2868" ph="SELECT * FRO... ventas" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="54" column="75" lean-forward="false" selection-start-line="54" selection-start-column="75" selection-end-line="54" selection-end-column="75" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -151,10 +161,10 @@
         <option value="$PROJECT_DIR$/user.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/admin.php" />
         <option value="$PROJECT_DIR$/controlador/insertar.php" />
         <option value="$PROJECT_DIR$/vista/prueba.php" />
         <option value="$PROJECT_DIR$/vista/administrador.php" />
+        <option value="$PROJECT_DIR$/admin.php" />
       </list>
     </option>
   </component>
@@ -273,12 +283,12 @@
       <workItem from="1530252762675" duration="1154000" />
       <workItem from="1530255889682" duration="7681000" />
       <workItem from="1530295664226" duration="8200000" />
-      <workItem from="1530308189304" duration="16248000" />
+      <workItem from="1530308189304" duration="16385000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53226000" />
+    <option name="totallyTimeSpent" value="53363000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -592,14 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="47" column="31" lean-forward="false" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controlador/insertar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -645,6 +647,14 @@
             <marker date="1530342541784" expanded="true" signature="2830:2844" ph="SELECT * FRO... employees" />
             <marker date="1530342541784" expanded="true" signature="2830:2868" ph="SELECT * FRO... ventas" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="54" column="75" lean-forward="false" selection-start-line="54" selection-start-column="75" selection-end-line="54" selection-end-column="75" />
+          <folding />
         </state>
       </provider>
     </entry>
