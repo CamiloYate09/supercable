@@ -48,9 +48,13 @@ if (isset($_GET['edit'])) {
     <div class="header item">
         Administrador SuperCable
     </div>
-    <a class="item active " href="index.php">
-        EMPLOYEES
+    <a class="item active " href="/user.php">
+        Portal Agentes
     </a>
+    <ul>
+        <li><a href="controlador/salir.php">Salir</a></li>
+    </ul>
+
 
 </div>
 <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
