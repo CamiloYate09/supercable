@@ -89,7 +89,7 @@ if (isset($_GET['del'])) {
 
 //recuperar registros##################
 //6)
-$results = pg_query($db, "SELECT * FROM ventas ORDER BY id_maestro ");
+$results = pg_query($db, "SELECT * FROM ventas ORDER BY id_maestro ASC");
 
 
 ?>
