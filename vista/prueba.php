@@ -31,6 +31,7 @@ if (isset($_GET['edit'])) {
 <head>
     <title>Administrador</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/styles/estilosadmin.css">
     <link rel="stylesheet" type="text/css" href="/styles/semantic.min.css">
     <!--    //SEMANTIC UI CON  JQUERY-->
 

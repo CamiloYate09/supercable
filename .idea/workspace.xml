@@ -4,6 +4,7 @@
     <list default="true" id="548493c0-67e3-4627-9689-dbd9e58651a3" name="Default" comment="">
       <change beforePath="" afterPath="$PROJECT_DIR$/img/admin.png" />
       <change beforePath="" afterPath="$PROJECT_DIR$/js/semantic.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/styles/estilosadmin.css" />
       <change beforePath="" afterPath="$PROJECT_DIR$/styles/semantic.min.css" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
@@ -46,11 +47,21 @@
       <file leaf-file-name="prueba.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vista/prueba.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="126" column="31" lean-forward="false" selection-start-line="126" selection-start-column="31" selection-end-line="126" selection-end-column="31" />
+            <state relative-caret-position="288">
+              <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
               <folding>
-                <marker date="1530340390036" expanded="true" signature="216:252" ph="SELECT * FRO... employees" />
+                <marker date="1530340564867" expanded="true" signature="216:252" ph="SELECT * FRO... employees" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="estilosadmin.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/estilosadmin.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -188,6 +199,11 @@
             <path>
               <item name="app" type="b2602c69:ProjectViewProjectNode" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="vista" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -212,9 +228,9 @@
       <recent name="C:\wamp64\www\PROYECTO-SUPERCABLE" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\app\styles" />
       <recent name="C:\xampp\htdocs\app\img" />
       <recent name="C:\xampp\htdocs\app\js" />
-      <recent name="C:\xampp\htdocs\app\styles" />
       <recent name="C:\xampp\htdocs\app" />
       <recent name="C:\wamp64\www\COPIAS-SEGURIDAD\COPIA_1\PROYECTO-SUPERCABLE\js" />
     </key>
@@ -252,12 +268,12 @@
       <workItem from="1530252762675" duration="1154000" />
       <workItem from="1530255889682" duration="7681000" />
       <workItem from="1530295664226" duration="8200000" />
-      <workItem from="1530308189304" duration="14640000" />
+      <workItem from="1530308189304" duration="14812000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51618000" />
+    <option name="totallyTimeSpent" value="51790000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -304,14 +320,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/datos.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1776">
@@ -617,12 +625,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/styles/estilosadmin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vista/prueba.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="126" column="31" lean-forward="false" selection-start-line="126" selection-start-column="31" selection-end-line="126" selection-end-column="31" />
+        <state relative-caret-position="288">
+          <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
           <folding>
-            <marker date="1530340390036" expanded="true" signature="216:252" ph="SELECT * FRO... employees" />
+            <marker date="1530340564867" expanded="true" signature="216:252" ph="SELECT * FRO... employees" />
           </folding>
         </state>
       </provider>
