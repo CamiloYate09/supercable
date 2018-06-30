@@ -4,7 +4,12 @@ include_once 'vendor/autoload.php';
 include_once 'vista/administrador.php';
 
 $uo = new Users();
-$uo->generaUser();
+
+for ($i = 0; $i < 500; $i++) {
+
+    $uo->generaUser();
+}
+
 
 //?>
 
