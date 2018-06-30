@@ -20,7 +20,7 @@ class Users{
 cc,email,hobby1,hobby2,hobby3) VALUES (:contrato,:nombre,:apellido,:tipocedula,:cc,:email,:hobby1,:hobby2:,hobby3)");
         echo "Error al establecer la conexion" . pg_errormessage();
         $resultado = pg_query($ps);
-        
+
         $ps->execute([
             ':contrato' => $this->faker->ean13,
             ':nombre' => $this->faker->name,
@@ -37,7 +37,17 @@ cc,email,hobby1,hobby2,hobby3) VALUES (:contrato,:nombre,:apellido,:tipocedula,:
 
         echo "Error al establecer la conexion" . pg_errormessage();
     }
+
+    public function getAll(){
+        $ps = $this->db->prepare("SELECT * FROM ventas");
+        $ps->execute();
+
+        return $ps->fetchAll(PDO::FETCH_OBJ);
 }
+
+}
+
+
 
 
 ?>

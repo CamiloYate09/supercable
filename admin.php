@@ -45,7 +45,7 @@
 
 <!--Contenedor-->
 
-<div class="container">
+<div class="container jumbotron">
     <div class="row">
 
 
