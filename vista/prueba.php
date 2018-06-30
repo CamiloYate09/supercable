@@ -129,151 +129,151 @@ if (isset($_GET['edit'])) {
 
 </table>
 <!--server.php conexion con la base de datos-->
-<form action="administrador.php" method="POST" class="ui form">
-    <!--//12) actualizar registros en el formulario-->
-    <input type="hidden" name="contrato" value="<?php echo $contrato; ?>">
-
-
-    <div class="field">
-        <div class="two fields">
-
-            <div class="ui right labeled input corner">
-                <input type="number" placeholder="Enter ..." autofocus maxlength="20" name="contrato"
-                       value="<?php echo $contrato; ?>">
-                <div class="ui teal   label">
-                    contrato
-                </div>
-            </div>
-
-
-            <div class="ui right labeled input ">
-                <input type="text" placeholder="Enter ..." autofocus maxlength="20" name="nombre"
-                       value="<?php echo $nombre; ?>">
-                <div class="ui teal   label">
-                    Nombre
-                </div>
-            </div>
-
-        </div>
-
-
-    </div>
-
-    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-
-    <div class="field">
-        <div class="two fields">
-            <div class="ui right labeled input ">
-                <input type="text" placeholder="Enter ..." name="apellido" autofocus maxlength="50"
-                       value="<?php echo $apellido; ?>">
-                <div class="ui teal   label">
-                    Apellido
-                </div>
-            </div>
-
-
-            <div class="ui right labeled input ">
-                <input type="text" placeholder="Enter ..." autofocus maxlength="15" name="tipocedula"
-                       value="<?php echo $tipocedula; ?>">
-                <div class="ui teal   label">
-                    Tipo
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-
-    <div class="field">
-        <div class="two fields">
-            <div class="ui right labeled input ">
-                <input type="number" placeholder="Enter..." name="cc"
-                       value="<?php echo $cc; ?>">
-                <div class="ui teal   label">
-                    Numero Documento
-                </div>
-            </div>
-
-
-            <div class="ui right labeled input ">
-                <input type="email" placeholder="Enter ..." autofocus maxlength="20" name="email"
-                       value="<?php echo $email; ?>">
-                <div class="ui teal   label">
-                    Email
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-
-    <div class="field">
-        <div class="two fields">
-            <div class="ui right labeled input ">
-                <input type="text" placeholder="Enter ..." autofocus maxlength="14" name="hobby1"
-                       value="<?php echo $hobby1;?>">
-                <div class="ui teal   label">
-                    Hobby1
-                </div>
-            </div>
-
-
-            <div class="two fields">
-                <div class="ui right labeled input ">
-                    <input type="text" placeholder="Enter ..." autofocus maxlength="14" name="hobby2"
-                           value="<?php echo $hobby2; ?>">
-                    <div class="ui teal   label">
-                        Hobby2
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-        <div class="field">
-            <div class="two fields">
-                <div class="ui right labeled input ">
-                    <input type="text" placeholder="Enter ..." autofocus maxlength="14" name="hobby3"
-                           value="<?php echo $hobby3; ?>">
-                    <div class="ui teal   label">
-                        Hobby3
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-
-
-        <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-        <div class="input-group">
-            <!-- //actualizar registros
-             //3-->
-            <?php if ($edit_state == false): ?>
-
-                <button type="submit" name="save" class="btn" onclick="alert('Tu imformacion se esta actualizando')">
-                    Guardar
-                </button>
-                <button type="button" onclick="alert('Tu imformacion se esta actualizando')"
-                        class="ui secondary  loading button positive"></button>
-            <?php else: ?>
-
-                <button type="submit" name="update" class="btn" onclick="alert('Tu imformacion se esta actualizando')">
-                    Actualizar
-                </button>
-                <button type="button" onclick="alert('Tu imformacion se esta actualizando')"
-                        class="ui secondary  loading button positive"></button>
-            <?php endif; ?>
-
-        </div>
-
-        <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
-
-
-</form>
+<!--<form action="administrador.php" method="POST" class="ui form">-->
+<!--    <!--//12) actualizar registros en el formulario-->-->
+<!--    <input type="hidden" name="contrato" value="--><?php //echo $contrato; ?><!--">-->
+<!---->
+<!---->
+<!--    <div class="field">-->
+<!--        <div class="two fields">-->
+<!---->
+<!--            <div class="ui right labeled input corner">-->
+<!--                <input type="number" placeholder="Enter ..." autofocus maxlength="20" name="contrato"-->
+<!--                       value="--><?php //echo $contrato; ?><!--">-->
+<!--                <div class="ui teal   label">-->
+<!--                    contrato-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!---->
+<!--            <div class="ui right labeled input ">-->
+<!--                <input type="text" placeholder="Enter ..." autofocus maxlength="20" name="nombre"-->
+<!--                       value="--><?php //echo $nombre; ?><!--">-->
+<!--                <div class="ui teal   label">-->
+<!--                    Nombre-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!--        </div>-->
+<!---->
+<!---->
+<!--    </div>-->
+<!---->
+<!--    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->-->
+<!---->
+<!--    <div class="field">-->
+<!--        <div class="two fields">-->
+<!--            <div class="ui right labeled input ">-->
+<!--                <input type="text" placeholder="Enter ..." name="apellido" autofocus maxlength="50"-->
+<!--                       value="--><?php //echo $apellido; ?><!--">-->
+<!--                <div class="ui teal   label">-->
+<!--                    Apellido-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!---->
+<!--            <div class="ui right labeled input ">-->
+<!--                <input type="text" placeholder="Enter ..." autofocus maxlength="15" name="tipocedula"-->
+<!--                       value="--><?php //echo $tipocedula; ?><!--">-->
+<!--                <div class="ui teal   label">-->
+<!--                    Tipo-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!---->
+<!---->
+<!--    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->-->
+<!---->
+<!--    <div class="field">-->
+<!--        <div class="two fields">-->
+<!--            <div class="ui right labeled input ">-->
+<!--                <input type="number" placeholder="Enter..." name="cc"-->
+<!--                       value="--><?php //echo $cc; ?><!--">-->
+<!--                <div class="ui teal   label">-->
+<!--                    Numero Documento-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!---->
+<!--            <div class="ui right labeled input ">-->
+<!--                <input type="email" placeholder="Enter ..." autofocus maxlength="20" name="email"-->
+<!--                       value="--><?php //echo $email; ?><!--">-->
+<!--                <div class="ui teal   label">-->
+<!--                    Email-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!---->
+<!---->
+<!--    <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->-->
+<!---->
+<!--    <div class="field">-->
+<!--        <div class="two fields">-->
+<!--            <div class="ui right labeled input ">-->
+<!--                <input type="text" placeholder="Enter ..." autofocus maxlength="14" name="hobby1"-->
+<!--                       value="--><?php //echo $hobby1;?><!--">-->
+<!--                <div class="ui teal   label">-->
+<!--                    Hobby1-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!---->
+<!--            <div class="two fields">-->
+<!--                <div class="ui right labeled input ">-->
+<!--                    <input type="text" placeholder="Enter ..." autofocus maxlength="14" name="hobby2"-->
+<!--                           value="--><?php //echo $hobby2; ?><!--">-->
+<!--                    <div class="ui teal   label">-->
+<!--                        Hobby2-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!--            </div>-->
+<!--        </div>-->
+<!---->
+<!--        <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->-->
+<!--        <div class="field">-->
+<!--            <div class="two fields">-->
+<!--                <div class="ui right labeled input ">-->
+<!--                    <input type="text" placeholder="Enter ..." autofocus maxlength="14" name="hobby3"-->
+<!--                           value="--><?php //echo $hobby3; ?><!--">-->
+<!--                    <div class="ui teal   label">-->
+<!--                        Hobby3-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!---->
+<!--            </div>-->
+<!--        </div>-->
+<!---->
+<!---->
+<!--        <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->-->
+<!--        <div class="input-group">-->
+<!--            <!-- //actualizar registros-->
+<!--             //3-->-->
+<!--            --><?php //if ($edit_state == false): ?>
+<!---->
+<!--                <button type="submit" name="save" class="btn" onclick="alert('Tu imformacion se esta actualizando')">-->
+<!--                    Guardar-->
+<!--                </button>-->
+<!--                <button type="button" onclick="alert('Tu imformacion se esta actualizando')"-->
+<!--                        class="ui secondary  loading button positive"></button>-->
+<!--            --><?php //else: ?>
+<!---->
+<!--                <button type="submit" name="update" class="btn" onclick="alert('Tu imformacion se esta actualizando')">-->
+<!--                    Actualizar-->
+<!--                </button>-->
+<!--                <button type="button" onclick="alert('Tu imformacion se esta actualizando')"-->
+<!--                        class="ui secondary  loading button positive"></button>-->
+<!--            --><?php //endif; ?>
+<!---->
+<!--        </div>-->
+<!---->
+<!--        <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->-->
+<!---->
+<!---->
+<!--</form>-->
 
 
 </body>
