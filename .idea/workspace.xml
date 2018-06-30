@@ -44,7 +44,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="prueba.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="prueba.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vista/prueba.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -66,17 +66,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="administrador.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="administrador.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vista/administrador.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-168">
-              <caret line="72" column="133" lean-forward="false" selection-start-line="72" selection-start-column="133" selection-end-line="72" selection-end-column="133" />
+            <state relative-caret-position="302">
+              <caret line="91" column="66" lean-forward="false" selection-start-line="91" selection-start-column="66" selection-end-line="91" selection-end-column="66" />
               <folding>
-                <marker date="1530343547616" expanded="true" signature="1060:1256" ph="INSERT INTO VENTAS... " />
-                <marker date="1530343547616" expanded="true" signature="2006:2205" ph="UPDATE ventas... " />
-                <marker date="1530343547616" expanded="true" signature="2461:2495" ph="DELETE FROM employees... " />
-                <marker date="1530343547616" expanded="true" signature="2710:2724" ph="SELECT * FRO... employees" />
-                <marker date="1530343547616" expanded="true" signature="2710:2748" ph="SELECT * FRO... ventas" />
+                <marker date="1530344858106" expanded="true" signature="1060:1256" ph="INSERT INTO VENTAS... " />
+                <marker date="1530344858106" expanded="true" signature="2006:2205" ph="UPDATE ventas... " />
+                <marker date="1530344858106" expanded="true" signature="2461:2495" ph="DELETE FROM employees... " />
+                <marker date="1530344858106" expanded="true" signature="2710:2724" ph="SELECT * FRO... employees" />
+                <marker date="1530344858106" expanded="true" signature="2710:2750" ph="SELECT * FRO... ventas" />
               </folding>
             </state>
           </provider>
@@ -153,8 +153,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/controlador/insertar.php" />
         <option value="$PROJECT_DIR$/admin.php" />
-        <option value="$PROJECT_DIR$/vista/administrador.php" />
         <option value="$PROJECT_DIR$/vista/prueba.php" />
+        <option value="$PROJECT_DIR$/vista/administrador.php" />
       </list>
     </option>
   </component>
@@ -268,12 +268,12 @@
       <workItem from="1530252762675" duration="1154000" />
       <workItem from="1530255889682" duration="7681000" />
       <workItem from="1530295664226" duration="8200000" />
-      <workItem from="1530308189304" duration="17651000" />
+      <workItem from="1530308189304" duration="18444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54629000" />
+    <option name="totallyTimeSpent" value="55422000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -611,6 +611,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vista/prueba.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="113" column="50" lean-forward="false" selection-start-line="113" selection-start-column="50" selection-end-line="113" selection-end-column="50" />
+          <folding>
+            <marker date="1530343949078" expanded="true" signature="216:252" ph="SELECT * FRO... employees" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1296">
@@ -621,24 +631,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vista/administrador.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="72" column="133" lean-forward="false" selection-start-line="72" selection-start-column="133" selection-end-line="72" selection-end-column="133" />
+        <state relative-caret-position="302">
+          <caret line="91" column="66" lean-forward="false" selection-start-line="91" selection-start-column="66" selection-end-line="91" selection-end-column="66" />
           <folding>
-            <marker date="1530343547616" expanded="true" signature="1060:1256" ph="INSERT INTO VENTAS... " />
-            <marker date="1530343547616" expanded="true" signature="2006:2205" ph="UPDATE ventas... " />
-            <marker date="1530343547616" expanded="true" signature="2461:2495" ph="DELETE FROM employees... " />
-            <marker date="1530343547616" expanded="true" signature="2710:2724" ph="SELECT * FRO... employees" />
-            <marker date="1530343547616" expanded="true" signature="2710:2748" ph="SELECT * FRO... ventas" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vista/prueba.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="113" column="50" lean-forward="false" selection-start-line="113" selection-start-column="50" selection-end-line="113" selection-end-column="50" />
-          <folding>
-            <marker date="1530343949078" expanded="true" signature="216:252" ph="SELECT * FRO... employees" />
+            <marker date="1530344858106" expanded="true" signature="1060:1256" ph="INSERT INTO VENTAS... " />
+            <marker date="1530344858106" expanded="true" signature="2006:2205" ph="UPDATE ventas... " />
+            <marker date="1530344858106" expanded="true" signature="2461:2495" ph="DELETE FROM employees... " />
+            <marker date="1530344858106" expanded="true" signature="2710:2724" ph="SELECT * FRO... employees" />
+            <marker date="1530344858106" expanded="true" signature="2710:2750" ph="SELECT * FRO... ventas" />
           </folding>
         </state>
       </provider>
