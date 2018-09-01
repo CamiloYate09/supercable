@@ -76,8 +76,10 @@
                 <h1>Bienvenido a Learnet</h1>
                 <h4>Ingresar nueva Venta</h4>
 
-                <!--                -->
-                <form method="post" name="formulario" action="controlador/insertar.php">
+
+
+    <!--     Codigo de formulario
+                             <form method="post" name="formulario" action="controlador/insertar.php">
                     <div class="form-row">
                         <div class="col-md-4 mb-3">
                             <label for="validationServer01">Contrato</label>
@@ -165,7 +167,7 @@
                     </div>
                 </form>
 
-                <!--                -->
+                       -->
 
             </div>
 
