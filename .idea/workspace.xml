@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="548493c0-67e3-4627-9689-dbd9e58651a3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/admin.php" afterPath="$PROJECT_DIR$/admin.php" />
-      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change beforePath="$PROJECT_DIR$/vista/prueba.php" afterPath="$PROJECT_DIR$/vista/prueba.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,10 +39,10 @@
       <file leaf-file-name="prueba.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vista/prueba.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+            <state relative-caret-position="230">
+              <caret line="92" column="18" lean-forward="false" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
               <folding>
-                <marker date="1535819938007" expanded="true" signature="216:252" ph="SELECT * FRO... ventas" />
+                <marker date="1535820024607" expanded="true" signature="216:252" ph="SELECT * FRO... ventas" />
               </folding>
             </state>
           </provider>
@@ -283,12 +281,12 @@
       <workItem from="1530255889682" duration="7681000" />
       <workItem from="1530295664226" duration="8200000" />
       <workItem from="1530308189304" duration="18707000" />
-      <workItem from="1535819225870" duration="682000" />
+      <workItem from="1535819225870" duration="766000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56367000" />
+    <option name="totallyTimeSpent" value="56451000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -578,10 +576,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vista/prueba.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        <state relative-caret-position="230">
+          <caret line="92" column="18" lean-forward="false" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
           <folding>
-            <marker date="1535819938007" expanded="true" signature="216:252" ph="SELECT * FRO... ventas" />
+            <marker date="1535820024607" expanded="true" signature="216:252" ph="SELECT * FRO... ventas" />
           </folding>
         </state>
       </provider>

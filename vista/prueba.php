@@ -88,9 +88,9 @@ if (isset($_GET['edit'])) {
         <th>tipo</th>
         <th>numerodocumento</th>
         <th>email</th>
-        <th>hobby1</th>
-        <th>hobby2</th>
-        <th>hobby3</th>
+        <th>Curso1</th>
+        <th>Curso2</th>
+        <th>Curso3</th>
 
 
         <th colspan="2">Action</th>
