@@ -220,6 +220,43 @@
 </div>
 
 
+
+<h4>Cursos Mas Cailifacdos en Youtube para comenzar Aprender </h4>
+
+<div class="row">
+ <div class="col-md-4">
+   <div class="thumbnail">
+     <a href="http://www.inkmark.mx/images/slider-img5.1.jpg">
+       <img src="http://www.inkmark.mx/images/slider-img5.1.jpg" alt="Lights" style="width:100%">
+       <div class="caption">
+         <p>Bilioteca Virgilio Barco</p>
+       </div>
+     </a>
+   </div>
+ </div>
+ <div class="col-md-4">
+   <div class="thumbnail">
+     <a href="https://solucioneswindroid.es/wp-content/uploads/2018/02/youtube-logo-696x392.png">
+       <img src="https://solucioneswindroid.es/wp-content/uploads/2018/02/youtube-logo-696x392.png" alt="Nature" style="width:100%">
+       <div class="caption">
+         <p>Piensa Digital</p>
+       </div>
+     </a>
+   </div>
+ </div>
+ <div class="col-md-4">
+   <div class="thumbnail">
+     <a href="https://voltaico.lavozdegalicia.es/wp-content/uploads/2016/05/Youtube-chat.jpg">
+       <img src="https://voltaico.lavozdegalicia.es/wp-content/uploads/2016/05/Youtube-chat.jpg" alt="Fjords" style="width:100%">
+       <div class="caption">
+         <p>CreaTic</p>
+       </div>
+     </a>
+   </div>
+ </div>
+</div>
+
+
     <!--     Codigo de formulario
                              <form method="post" name="formulario" action="controlador/insertar.php">
                     <div class="form-row">
