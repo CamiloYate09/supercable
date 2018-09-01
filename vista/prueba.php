@@ -46,10 +46,10 @@ if (isset($_GET['edit'])) {
 <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
 <div class="ui teal  menu">
     <div class="header item">
-        Administrador SuperCable
+        Administrador Learnet
     </div>
     <a class="item active " href="/user.php">
-        Portal Agentes
+        Portal Cursos
     </a>
 
     <a class="item active " href="/controlador/salir.php">

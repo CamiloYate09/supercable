@@ -35,7 +35,7 @@ if (isset($_POST['submit'])) {
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width-device-width, user-scalable=no, initial-scale=1, maximun-scale=1, minimum-scale=1">
-    <title>Super Cable</title>
+    <title>Learnet</title>
     <link rel="stylesheet" href="styles/estilos.css">
     <!---->
     <!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"-->
