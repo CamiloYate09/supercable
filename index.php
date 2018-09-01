@@ -48,7 +48,7 @@ if (isset($_POST['submit'])) {
 
 
 <form  method="post">
-    <img id="logo" src="img/supercable.png" alt="Supercable">
+    <img id="logo" src="img/LogoLetters.png" alt="Supercable">
 
     <table class="table table-striped table-dark">
         <tr>
