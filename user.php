@@ -153,8 +153,8 @@
 <div class="row">
  <div class="col-md-4">
    <div class="thumbnail">
-     <a href="http://www.bogota.gov.co/sites/default/files/styles/temporal/public/whatsapp_image_2018-04-16_at_4.52.17_pm.jpeg?itok=992vf2jl">
-       <img src="hhttp://www.bogota.gov.co/sites/default/files/styles/temporal/public/whatsapp_image_2018-04-16_at_4.52.17_pm.jpeg?itok=992vf2jl" alt="Lights" style="width:100%">
+     <a href="https://admin.kienyke.com/wp-content/uploads/2018/04/cursos-online.jpg">
+       <img src="https://admin.kienyke.com/wp-content/uploads/2018/04/cursos-online.jpg" alt="Lights" style="width:100%">
        <div class="caption">
          <p>Curso Fullstack Fedesoft</p>
        </div>
