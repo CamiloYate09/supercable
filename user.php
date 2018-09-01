@@ -73,10 +73,10 @@
 
         <div class="col-md-9">
             <div >
-                <h1>Bienvenido a Learnet Luis Eduardo</h1>
+                <h3>Bienvenido a Learnet Luis Eduardo</h3>
      
 
-<h6>Tus cursos perfilados a tu busqueda </h6>
+<h4>Tus cursos perfilados a tu busqueda </h4>
 
   <div class="row">
   <div class="col-md-4">
@@ -112,7 +112,7 @@
 </div>
 
 
-<h6>Tus cursos disponibles para tu Cuidad Bogota</h6>
+<h4>Tus cursos disponibles para tu Cuidad Bogota</h4>
 
  <div class="row">
   <div class="col-md-4">
