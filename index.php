@@ -49,6 +49,7 @@ if (isset($_POST['submit'])) {
 
 <form  method="post">
     <img id="logo" src="img/LogoLetters.png" alt="Supercable">
+    <a href="https://learnetteam.herokuapp.com/">Inicio</a>
 
     <table class="table table-striped table-dark">
         <tr>
