@@ -76,7 +76,7 @@
                 <h1>Bienvenido a Learnet Luis Eduardo</h1>
      
 
-<h3>Tus cursos perfilados a tu busqueda </h3>
+<h6>Tus cursos perfilados a tu busqueda </h6>
 
   <div class="row">
   <div class="col-md-4">
@@ -112,7 +112,7 @@
 </div>
 
 
-<h1>Tus cursos disponibles para tu Cuidad Bogota</h1>
+<h6>Tus cursos disponibles para tu Cuidad Bogota</h6>
 
  <div class="row">
   <div class="col-md-4">
