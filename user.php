@@ -148,6 +148,41 @@
 </div>
 
 
+<h4>Becas Disponibles para tu perfil </h4>
+
+<div class="row">
+ <div class="col-md-4">
+   <div class="thumbnail">
+     <a href="http://www.bogota.gov.co/sites/default/files/styles/temporal/public/whatsapp_image_2018-04-16_at_4.52.17_pm.jpeg?itok=992vf2jl">
+       <img src="hhttp://www.bogota.gov.co/sites/default/files/styles/temporal/public/whatsapp_image_2018-04-16_at_4.52.17_pm.jpeg?itok=992vf2jl" alt="Lights" style="width:100%">
+       <div class="caption">
+         <p>Curso Fullstack Fedesoft</p>
+       </div>
+     </a>
+   </div>
+ </div>
+ <div class="col-md-4">
+   <div class="thumbnail">
+     <a href="https://pbs.twimg.com/media/DlJo8djXoAAwBMD.jpg">
+       <img src="https://pbs.twimg.com/media/DlJo8djXoAAwBMD.jpg" alt="Nature" style="width:100%">
+       <div class="caption">
+         <p>Cursos Udemy</p>
+       </div>
+     </a>
+   </div>
+ </div>
+ <div class="col-md-4">
+   <div class="thumbnail">
+     <a href="http://clustercreatic.com/media/filer_public/15/39/15395c0d-2018-4e32-868b-77255f0d63a6/curso_android-01-min.jpg">
+       <img src="http://clustercreatic.com/media/filer_public/15/39/15395c0d-2018-4e32-868b-77255f0d63a6/curso_android-01-min.jpg" alt="Fjords" style="width:100%">
+       <div class="caption">
+         <p>Cursos Udemy</p>
+       </div>
+     </a>
+   </div>
+ </div>
+</div>
+
 
     <!--     Codigo de formulario
                              <form method="post" name="formulario" action="controlador/insertar.php">
