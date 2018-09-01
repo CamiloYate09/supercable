@@ -166,7 +166,7 @@
      <a href="https://pbs.twimg.com/media/DlJo8djXoAAwBMD.jpg">
        <img src="https://pbs.twimg.com/media/DlJo8djXoAAwBMD.jpg" alt="Nature" style="width:100%">
        <div class="caption">
-         <p>Cursos Udemy</p>
+         <p>Piensa Digital</p>
        </div>
      </a>
    </div>
@@ -176,7 +176,43 @@
      <a href="http://clustercreatic.com/media/filer_public/15/39/15395c0d-2018-4e32-868b-77255f0d63a6/curso_android-01-min.jpg">
        <img src="http://clustercreatic.com/media/filer_public/15/39/15395c0d-2018-4e32-868b-77255f0d63a6/curso_android-01-min.jpg" alt="Fjords" style="width:100%">
        <div class="caption">
-         <p>Cursos Udemy</p>
+         <p>CreaTic</p>
+       </div>
+     </a>
+   </div>
+ </div>
+</div>
+
+
+<h4>Bibliotecas con libros disponibles para tu perfil</h4>
+
+<div class="row">
+ <div class="col-md-4">
+   <div class="thumbnail">
+     <a href="https://www.eltiempo.com/contenido/bogota/IMAGEN/IMAGEN-14882069-2.jpg">
+       <img src="https://www.eltiempo.com/contenido/bogota/IMAGEN/IMAGEN-14882069-2.jpg" alt="Lights" style="width:100%">
+       <div class="caption">
+         <p>Bilioteca Virgilio Barco</p>
+       </div>
+     </a>
+   </div>
+ </div>
+ <div class="col-md-4">
+   <div class="thumbnail">
+     <a href="https://www.kiero.co/ProductImages/ISBN%C2%A097861-1.jpg">
+       <img src="https://www.kiero.co/ProductImages/ISBN%C2%A097861-1.jpg" alt="Nature" style="width:100%">
+       <div class="caption">
+         <p>Piensa Digital</p>
+       </div>
+     </a>
+   </div>
+ </div>
+ <div class="col-md-4">
+   <div class="thumbnail">
+     <a href="https://olcovers2.blob.core.windows.net/coverswp/2011/07/curso_android1.png">
+       <img src="https://olcovers2.blob.core.windows.net/coverswp/2011/07/curso_android1.png" alt="Fjords" style="width:100%">
+       <div class="caption">
+         <p>CreaTic</p>
        </div>
      </a>
    </div>
