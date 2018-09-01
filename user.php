@@ -76,8 +76,45 @@
                 <h1>Bienvenido a Learnet</h1>
      
 
+<h3>Tus cursos perfilados a tu busqueda </h3>
 
   <div class="row">
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="/w3images/lights.jpg">
+        <img src="https://i0.wp.com/static.platzi.com/media/courses/opengraph-and.png?ssl=1" alt="Lights" style="width:100%">
+        <div class="caption">
+          <p>Lorem ipsum...</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="/w3images/nature.jpg">
+        <img src="https://static.platzi.com/media/courses/opengraph-firebase-praa-android.png" alt="Nature" style="width:100%">
+        <div class="caption">
+          <p>Lorem ipsum...</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="/w3images/fjords.jpg">
+        <img src="http://infotic.co/wp-content/uploads/2017/10/articles-61415_foto_marquesina.png" alt="Fjords" style="width:100%">
+        <div class="caption">
+          <p>Lorem ipsum...</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<h1>Tus cursos disponibles para tu Cuidad</h1>
+
+ <div class="row">
   <div class="col-md-4">
     <div class="thumbnail">
       <a href="/w3images/lights.jpg">
