@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="548493c0-67e3-4627-9689-dbd9e58651a3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/vista/prueba.php" afterPath="$PROJECT_DIR$/vista/prueba.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/user.php" afterPath="$PROJECT_DIR$/user.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,10 +37,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="prueba.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="prueba.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vista/prueba.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
+            <state relative-caret-position="590">
               <caret line="92" column="18" lean-forward="false" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
               <folding>
                 <marker date="1535820024607" expanded="true" signature="216:252" ph="SELECT * FRO... ventas" />
@@ -48,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="user.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1392">
-              <caret line="58" column="18" lean-forward="false" selection-start-line="58" selection-start-column="18" selection-end-line="60" selection-end-column="25" />
+            <state relative-caret-position="408">
+              <caret line="151" column="55" lean-forward="false" selection-start-line="151" selection-start-column="55" selection-end-line="151" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -61,9 +62,14 @@
       <file leaf-file-name="administrador.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vista/administrador.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="1320">
               <caret line="91" column="71" lean-forward="false" selection-start-line="91" selection-start-column="71" selection-end-line="91" selection-end-column="71" />
-              <folding />
+              <folding>
+                <marker date="1535819044016" expanded="true" signature="1060:1256" ph="INSERT INTO VENTAS... " />
+                <marker date="1535819044016" expanded="true" signature="2006:2205" ph="UPDATE ventas... " />
+                <marker date="1535819044016" expanded="true" signature="2461:2495" ph="DELETE FROM ventas... " />
+                <marker date="1535819044016" expanded="true" signature="2710:2755" ph="SELECT * FRO... ventas" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,13 +152,13 @@
         <option value="$PROJECT_DIR$/principal.php" />
         <option value="$PROJECT_DIR$/datos.txt" />
         <option value="$PROJECT_DIR$/controlador/salir.php" />
-        <option value="$PROJECT_DIR$/user.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/controlador/insertar.php" />
         <option value="$PROJECT_DIR$/vista/administrador.php" />
         <option value="$PROJECT_DIR$/admin.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/vista/prueba.php" />
+        <option value="$PROJECT_DIR$/user.php" />
       </list>
     </option>
   </component>
@@ -208,11 +214,6 @@
               <item name="supercable" type="b2602c69:ProjectViewProjectNode" />
               <item name="supercable" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="controlador" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="supercable" type="b2602c69:ProjectViewProjectNode" />
-              <item name="supercable" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="supercable" type="b2602c69:ProjectViewProjectNode" />
@@ -281,12 +282,12 @@
       <workItem from="1530255889682" duration="7681000" />
       <workItem from="1530295664226" duration="8200000" />
       <workItem from="1530308189304" duration="18707000" />
-      <workItem from="1535819225870" duration="766000" />
+      <workItem from="1535819225870" duration="1169000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56451000" />
+    <option name="totallyTimeSpent" value="56854000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -532,26 +533,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1392">
-          <caret line="58" column="18" lean-forward="false" selection-start-line="58" selection-start-column="18" selection-end-line="60" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controlador/insertar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="984">
           <caret line="41" column="27" lean-forward="false" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vista/administrador.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="91" column="71" lean-forward="false" selection-start-line="91" selection-start-column="71" selection-end-line="91" selection-end-column="71" />
           <folding />
         </state>
       </provider>
@@ -576,11 +561,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vista/prueba.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="590">
           <caret line="92" column="18" lean-forward="false" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
           <folding>
             <marker date="1535820024607" expanded="true" signature="216:252" ph="SELECT * FRO... ventas" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vista/administrador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="91" column="71" lean-forward="false" selection-start-line="91" selection-start-column="71" selection-end-line="91" selection-end-column="71" />
+          <folding>
+            <marker date="1535819044016" expanded="true" signature="1060:1256" ph="INSERT INTO VENTAS... " />
+            <marker date="1535819044016" expanded="true" signature="2006:2205" ph="UPDATE ventas... " />
+            <marker date="1535819044016" expanded="true" signature="2461:2495" ph="DELETE FROM ventas... " />
+            <marker date="1535819044016" expanded="true" signature="2710:2755" ph="SELECT * FRO... ventas" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="151" column="55" lean-forward="false" selection-start-line="151" selection-start-column="55" selection-end-line="151" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>

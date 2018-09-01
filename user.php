@@ -21,7 +21,7 @@
             integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
             crossorigin="anonymous"></script>
     <script src="semantic/dist/semantic.min.js"></script>
-    <title>SuperCable</title>
+    <title>Learnet</title>
 </head>
 <body>
 
@@ -73,7 +73,7 @@
 
         <div class="col-md-9">
             <div >
-                <h1>Bienvenido a SuperCable</h1>
+                <h1>Bienvenido a Learnet</h1>
                 <h4>Ingresar nueva Venta</h4>
 
                 <!--                -->
@@ -137,19 +137,19 @@
                         <div class="col-md-4 mb-3">
                             <label for="validationServer05">Hobby 1</label>
                             <input type="text" class="form-control is-invalid" name="hobby1" id="validationServer05"
-                                   placeholder="Hobby 1" autofocus>
+                                   placeholder="Curso 1" autofocus>
 
                         </div>
                         <div class="col-md-4 mb-3">
                             <label for="validationServer05">Hobby 2</label>
                             <input type="text" class="form-control is-invalid" name="hobby2" id="validationServer05"
-                                   placeholder="Hobby 2" autofocus>
+                                   placeholder="Curso 2" autofocus>
 
                         </div>
                         <div class="col-md-4 mb-3">
                             <label for="validationServer05">Hobby 3</label>
                             <input type="text" class="form-control is-invalid" name="hobby3" id="validationServer05"
-                                   placeholder="Hobby 3" autofocus>
+                                   placeholder="Curso 3" autofocus>
 
                         </div>
                     </div>
